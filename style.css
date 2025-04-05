@@ -223,7 +223,6 @@ header ul li a:hover, header ul li a:hover >i{
     line-height: 29rem;
     padding-bottom: 50rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
 }
 .about-text a{
     height: 59rem;
@@ -261,7 +260,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
 }
 
 .offeredServices{
@@ -296,7 +294,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
 }
 .service:hover > .serviceLogo a h3, .service:hover >.serviceLogo i{
     color: #8490ff;
@@ -325,7 +322,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color:white;
-    font-weight: 100;
 }
 /* Stat End  */
 
@@ -346,7 +342,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
 }
 
 .projectsFilterHeader{
@@ -421,7 +416,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
     padding-bottom: 25rem;
 }
 .projects{
@@ -455,7 +449,6 @@ header ul li a:hover, header ul li a:hover >i{
     font-size: 21.7rem;
     line-height: 29rem;
     color: rgb(105, 109, 112);
-    font-weight: 100;
 }
 
 .pricing{
@@ -495,7 +488,7 @@ header ul li a:hover, header ul li a:hover >i{
     text-align: center;
     font-size: 19rem;
     line-height: 29rem;
-    color: rgba(105, 109, 112,0.7);
+    color: rgba(105, 109, 112);
     font-weight:lighter;
 }
 .pricingPlanTextBox{
@@ -587,7 +580,6 @@ footer{
 footer p, footer a, footer p i{
     font-size: 21.7rem;
     line-height: 30rem;
-    font-weight: 100;
     color:#777777;
 }
 footer p a{
