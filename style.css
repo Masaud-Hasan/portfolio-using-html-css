@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.052vw;
+    font-family:"Poppins", Arial, Helvetica, sans-serif; 
+    color: rgba(39, 38, 38, 0.9);
+}
+h1{
+    font-size: 47rem;
+}
+h2{
+    font-size: 32rem;
+}
+h3{
+    font-size: 26.3rem;
+}
+h4{
+    font-size: 22rem;
+}
+h5{
+    font-size: 18.5rem;
+}
+h6{
+    font-size: 15rem;
+}
+p, a, i,input{
+    font-size: 24rem; 
+}
+/* body{
+    font-size: 0.052vw;
+} */
+
+/* Header Start */
+
+header{
+    width: 100%;
+    height: 95rem;
+    padding-left: 9%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 13rem 25rem rgba(80, 96, 114, 0.144);
+    background-color: white;
+    z-index: 10000;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:poppins,sans-serif;
+}
+.logo img{
+    height: 47%;
+}
+a{
+    font-size: 17rem;
+    text-decoration: none; color:rgba(0,0,0,0.8);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    height: 100%;
+    width: 55%;
+}
+header ul li{
+    list-style: none;
+    position: relative;
+}
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.dd1, .dd2{
+    display: none;
+}
+.dd1 li a, .dd2 li a{
+    display: block;
+}
+header ul li:hover > .dd1{
+    display: block;
+    width: 280rem;
+    height: 139rem;
+    background-color: white;
+    position: absolute;
+    top:100%;
+    right: -17%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    box-shadow: -3px -2px 10px rgba(0,0,0,0.1);
+}
+.dd1 li{
+    margin: 35rem 0rem 35rem 40rem;
+}
+header ul li:hover > .dd2{
+    display: block;
+    width: 280rem;
+    height: 139rem;
+    background-color: white;
+    position: absolute;
+    top:100%;
+    right: -17%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    box-shadow: -3px -2px 10px rgba(0,0,0,0.1);
+}
+.dd2 li{
+    margin: 35rem 0rem 35rem 40rem;
+}
+header i{
+    font-size: 17rem;
+    padding-top: 3rem;
+}
+header ul li a{
+    transition: all 0.5s;
+}
+header ul li a:hover, header ul li a:hover >i{
+    color:#8490ff;
+}
+.home{
+    color: #8490ff;
+}
+
+/* Header End  */
+
+/* Hero Section Start  */
+
+.first-banner{
+    width: 100%;
+    height: 1080rem;
+    background-color:rgb(248, 249, 255);
+    font-size: 18rem;
+    padding:180rem 210rem 10rem 125rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img2 img{
+    height: 75%;
+}
+.img2 img{
+    width: 100%;   
+}
+.text{
+    height: 63%;
+    width: 50%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.text h5{
+    letter-spacing: 3rem;
+    font-weight: 500;
+}
+.text h1{
+    font-size: 78rem;
+    padding: 35rem 0rem 35rem 0rem;
+}
+.text p{
+    font-size: 21rem;
+    line-height: 29rem;
+    padding-bottom: 30rem;
+    color: rgb(105, 109, 112);
+}
+.text a{
+    height: 59rem;
+    width: 240rem;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.35s;
+}
+.text a h4{
+    color: white;
+    font-size: 20rem;
+    font-weight: 600;
+}
+.text a:hover{
+    box-shadow: 0px 20rem 20rem rgba(100, 148, 237, 0.4);
+}
+
+/* Hero Section End  */
+
+/* About Section Start  */
+
+.about{
+    height: 800rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 180rem;
+    padding-right: 4%;
+    padding-left: 4%;
+    
+}
+.about img{
+    width: 43%;
+    height: 84%;
+}
+.about-text{
+    width: 36%;
+    padding-top: 45rem;
+}
+.about-text h5{
+    /* letter-spacing: 3rem; */
+    font-weight: 500;
+}
+.about-text h1{
+    font-size: 49rem;
+    padding: 44rem 0rem 59rem 0rem;
+}
+.about-text p{
+    font-size: 21.7rem;
+    line-height: 29rem;
+    padding-bottom: 50rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+}
+.about-text a{
+    height: 59rem;
+    width: 259rem;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.35s;
+}
+.about-text a h4{
+    color: white;
+    font-size: 20rem;
+    font-weight: 600;
+}
+.about-text a:hover{
+    box-shadow: 0px 20rem 20rem rgba(100, 148, 237, 0.4);
+}
+/* About Section End  */
+
+/* Offered Services Start*/
+.offeredServicesText{
+    padding: 87rem 0 120rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offeredServicesText h1{
+    font-size: 49rem;
+    padding-bottom: 30rem;
+}
+.offeredServicesText p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+}
+
+.offeredServices{
+    height: 700rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 100rem 0 110rem;
+}
+.service{
+    width: 29%;
+    height: 243rem;
+}
+.serviceLogo{
+    width: 99%;
+    height:127rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 29rem;
+}
+.serviceLogo a{
+    width: 100%;
+    text-align: center;
+}
+.serviceLogo i{
+    font-size: 45rem;
+}
+.service p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+}
+.service:hover > .serviceLogo a h3, .service:hover >.serviceLogo i{
+    color: #8490ff;
+}
+/* Offered Services End*/
+
+/* Stat start  */
+.stat{
+    width: 100%;
+    height: 450rem;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 129rem 0;
+}
+.stat h1, .stat p{
+    color: white;
+    text-align: center;
+}
+.stat h1{
+    font-size: 55rem;
+}
+.stat p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color:white;
+    font-weight: 100;
+}
+/* Stat End  */
+
+/* Latest Projects Start  */
+.latestProjectsText{
+    padding: 30rem 0 120rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latestProjectsText h1{
+    font-size: 49rem;
+    padding-bottom: 30rem;
+}
+.latestProjectsText p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+}
+
+.projectsFilterHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectsFilterHeader a{
+    margin: 25rem;
+    padding-bottom: 4rem;
+    font-family: Poppins, sans-serif;
+    font-size: 16.5rem;
+    position: relative;
+}
+.projectsFilterHeader a::after{
+    content: "";
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 0;
+    transition:width 0.3s ease-in;
+}
+.projectsFilterHeader a:hover::after{
+    width: 50%;
+}
+.projectsFilterHeader .home:hover::after{
+    width: 0%;
+}
+.projectsFilterHeader a:active{
+    color: #8490ff;
+}
+
+.projectItemHover{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 9rem;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    position: relative;
+}
+.projectItemHover img{
+    width: 490rem;
+    height: 490rem;
+    border-radius: 9rem;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+}
+.projectItemHover a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.projectItemHover i{
+    font-size:80rem;
+    color: white;
+    opacity: 0;
+    transition: all 0.15s ease-in;
+}
+.projectItem{
+    height: fit-content;
+    width: fit-content;
+    padding: 2rem 10rem 1rem 10rem;
+}
+.projectItem h3{
+    text-align: center;
+    padding-top: 30rem;
+}
+.projectItem p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+    padding-bottom: 25rem;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80rem 140rem;
+}
+.projectItem:hover > .projectItemHover img{
+    opacity: 0.3;
+}
+.projectItem:hover > .projectItemHover a i{
+    opacity: 0.9;
+}
+
+/* Pricing Section Start  */
+.pricingText{
+    padding: 39rem 0 109rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricingText h1{
+    font-size: 49rem;
+    padding-bottom: 30rem;
+}
+.pricingText p{
+    text-align: center;
+    font-size: 21.7rem;
+    line-height: 29rem;
+    color: rgb(105, 109, 112);
+    font-weight: 100;
+}
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50rem;
+}
+.pricingPlan{
+    width: 400rem;
+    background-color: #f9f9ff;
+    position: relative;
+    text-align: center;
+    padding: 49rem 30rem 40rem 30rem;
+    transition: all 0.35s ease;
+}
+.pricingPlan h2{
+    font-weight: 300;
+    font-size: 46rem;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-color: rgba(132, 144, 255, 0.1);
+    width: 200rem;
+    height: 200rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 45rem solid rgba(132, 144, 255, 0.1);
+    transition: all 0.17s ease;
+}
+.pricingPlan h4{
+    font-size: 26.1rem;
+    font-weight: 600;
+    padding: 28rem 0 17rem 0;
+}
+.pricingPlan p{
+    text-align: center;
+    font-size: 19rem;
+    line-height: 29rem;
+    color: rgba(105, 109, 112,0.7);
+    font-weight:lighter;
+}
+.pricingPlanTextBox{
+    margin-top: 40rem;
+    margin-bottom: 44rem;
+    transition: all 0.35s ease;
+}
+.pricingPlanTextBox p{
+    padding: 16rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.pricingPlanTextBox p:first-child{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.pricingPlan h1{
+    font-size: 53rem;
+}
+.pricingBuyBtn{
+    height: 60rem;
+    width: 340rem;
+    position: absolute;
+    bottom: 43rem;
+    left: 50%;
+    transform: translate(-50% ,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0;
+}
+
+
+.pricingPlan:hover{
+    z-index: 1;
+    transform: scale(1.06);
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    color: white;
+    cursor: pointer;
+}
+.pricingPlan:hover >p, .pricingPlan:hover >h4, .pricingPlan:hover >.pricingPlanTextBox p{
+    color: white;
+    border-color: white;
+}
+.pricingPlan:hover >h2{
+    color: white;
+    border-color: rgb(152, 198, 254);
+}
+.pricingPlan:hover >h1{
+    opacity: 0;
+}
+.pricingPlan:hover >a{
+    opacity: 1;
+}
+
+/* Upper Footer Start  */
+.upperFooter{
+    width: 100%;
+    height: 320rem;
+    padding: 0 98rem;
+    margin-top: 120rem;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.upperFooter a img{
+    width: 165rem;
+    height: auto;
+}
+.upperFooter a{
+    opacity: 0.5;
+    transition:all 0.2s ease;
+}
+.upperFooter a:hover{
+    opacity: 1;
+}
+/* Upper Footer End  */
+
+/* Footer Section Start  */
+footer{
+    width: 100%;
+    height: 575rem;
+    background-color: rgb(4, 9, 30);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 10rem 165rem 0 133rem;
+}
+footer p, footer a, footer p i{
+    font-size: 21.7rem;
+    line-height: 30rem;
+    font-weight: 100;
+    color:#777777;
+}
+footer p a{
+    color:#8490ff ;
+}
+footer a i{
+    color: white;
+}
+footer h4{
+    color:white;
+    font-size: 25rem;
+    font-weight: 300;
+    letter-spacing: 1.8rem;
+    padding-bottom: 37rem;
+}
+.footerAbout{
+    width: 630rem;
+    height: 250rem;
+}
+.footerAbout p{
+    padding-bottom: 30rem;
+}
+
+.footerNewsLetter{
+    width: 630rem;
+    height: 250rem;
+}
+.footerNewsLetter p{
+    padding-bottom: 24rem;
+}
+.footerNewsletterSearch{
+    width: 630rem;
+    height: 57rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerNewsletterSearch input{
+    width: 570rem;
+    height: 59rem;
+    outline: none;
+    border: none;
+    padding: 0 29rem;
+    font-size: 20rem;
+    letter-spacing: 1.4rem;
+    color: rgba(105, 109, 112,0.7);
+}
+.footerNewsletterSearch a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60rem;
+    height:59rem;
+    background-color: rgb(132, 144, 255);
+}
+.footerNewsletterSearch a i{
+    font-size: 20rem;
+}
+
+.footerSocial{
+    width: 200rem;
+    height: 250rem;
+}
+.footerSocial p{
+    padding-bottom: 30rem;
+}
+.footerSocialIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 10rem;
+}
+.footerSocialIcon a i{
+    font-size: 18rem;
+}
+/* Footer Section End  */
